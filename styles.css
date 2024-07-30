@@ -1,0 +1,297 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #ffffff;
+    color: #000000;
+    background-size: cover;
+    background-attachment: fixed; 
+    background-image: url(imagens/particula-de-tecnologia-abstrata-realista-de-fundo_23-2148431735.avif);
+    width: 100%;
+  }
+
+
+header {
+    background-color: #003366; 
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    margin: 0;
+    font-family: 'Great Vibes', Arial, sans-serif;
+  font-size: 36px;
+  margin-bottom: 10px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  background: linear-gradient(to bottom, #003366, #ffffff);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  position: relative;
+
+}
+
+h1 {
+    animation: pulse 2s infinite;
+  }
+  
+  @keyframes pulse {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.1);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+   
+  
+
+
+h2 {
+    margin: 0;
+    font-family: 'Great Vibes', Arial, sans-serif;
+  font-size: 26px;
+  margin-bottom: 15px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  background: linear-gradient(to bottom, #28435f, #ffffff);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  position: relative;
+
+}
+
+h2 {
+    animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+      }
+      50% {
+        transform: scale(1.1);
+      }
+      100% {
+        transform: scale(1);
+      }
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background-color: #003366; 
+    color: #ffffff;
+    text-align: center;
+    padding: 0;
+   position: relative ;
+   bottom: 0;
+   width: 100%;
+}
+
+
+footer p {
+    margin: 10px 0;
+    font-size: 14px;
+    position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 0;
+  font-size: 14px;
+  }
+
+  
+.social-icons {
+    margin-bottom: 10px;
+   margin-top: 40px;
+     
+}
+
+.social-icons img {
+    width: 20px; 
+    margin: 0 10px;
+ }
+
+.profile-photo {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%; 
+    overflow: hidden;
+    margin: auto
+  
+}
+
+.profile-photo img {
+    width: 100%; 
+    height: auto;
+  
+}
+
+
+section  {
+
+    font-family: 'Open Sans' sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+   
+}
+
+section p{
+
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #003366;
+}
+
+
+
+
+section h3{
+
+    font-size: 24px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+
+ .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+ .sobre-empresa {
+    width: 45%;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease-in-out;
+    position: relative;
+}
+
+ h3, .sobre-empresa h3 {
+    margin-top: 0;
+}
+
+@media (max-width: 768px) {
+     .sobre-empresa {
+        width: 100%;
+        margin: 10px;
+    }
+}
+  .sobre-empresa:hover {
+    background-color:#003366;
+  }
+
+   .sobre-empresa {
+    animation: fadeIn 1s ease-in-out;
+  }
+  
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  .sobre-empresa:hover::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 20px;
+    height: 20px;
+    background-color: #003366;
+    border-radius: 50%;
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+    line-height: 20px;
+  }
+  
+  
+  
+  .sobre-empresa:hover::after {
+    content: "";
+  }
+
+
+  .animacao {
+    animation: fadeInText 2s ease-in-out;
+  }
+  
+  @keyframes fadeInText {
+    0% {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+
+  section p {
+    animation: fadeInText 2s ease-in-out;
+  }
+
+
+
+
+p{
+color: #fff;
+}
+
+
+.botao-acessar-site {
+  position: relative;
+  top: 100px;
+  left: -230px;
+  background-color: #1c5c9c;
+  color: #fff;
+  padding: 9px 9px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.botao-acessar-site:hover {
+  background-color: #4073a7;
+}
+
+.copy{
+margin-left: -140px;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+  header} {
+    flex-direction: column;
+  }
+
+
+
+
+  main {
+    flex-direction: column;
+  }
+
+
+
+  section {
+    margin-bottom: 20px;
+  }
